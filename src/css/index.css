@@ -95,3 +95,33 @@
 .steps__content-text {
   @apply text-[15px] text-grey leading-text;
 }
+
+/* ===== TESTIMONIAL SECTION ===== */
+.testimonial__content {
+  @apply grid gap-8 py-12 px-8 bg-white border-2 border-solid border-black border-opacity-10 transition-all duration-400;
+}
+.testimonial__content-profile {
+  @apply flex items-center gap-2;
+}
+.testimonial__content-img {
+  @apply w-14;
+}
+.testimonial__content-name {
+  @apply text-[18px] text-black font-bold mb-1;
+}
+.testimonial__content-account {
+  @apply text-[14px] text-grey;
+}
+.testimonial__content-comment {
+  @apply text-[15px] text-grey leading-text;
+}
+/* swiper-pagination */
+.testimonial__container .swiper-pagination {
+  position: initial;
+}
+.testimonial__container .swiper-pagination-bullet {
+  @apply w-2 h-2 bg-black bg-opacity-40 transition-all duration-400;
+}
+.testimonial__container .swiper-pagination-bullet-active {
+  @apply w-8 h-2 bg-purple rounded-full;
+}

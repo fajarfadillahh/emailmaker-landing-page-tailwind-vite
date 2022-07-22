@@ -78,3 +78,20 @@
 .features__content-icon {
   @apply w-4 h-4 inline-flex justify-center items-center p-1 bg-purple rounded-full text-[15px] text-white;
 }
+
+/* ===== STEPS SECTION ===== */
+.steps__group {
+  @apply grid grid-cols-[repeat(auto-fit,minmax(320px,0.8fr))] justify-center gap-12;
+}
+.steps__content {
+  @apply grid gap-8 py-12 px-8 bg-[rgba(0,0,0,0.05)];
+}
+.steps__content-number {
+  @apply w-12 h-12 inline-flex justify-center items-center p-4 bg-purple text-[18px] text-white font-semibold mb-4;
+}
+.steps__content-title {
+  @apply text-[20px] text-black font-bold;
+}
+.steps__content-text {
+  @apply text-[15px] text-grey leading-text;
+}

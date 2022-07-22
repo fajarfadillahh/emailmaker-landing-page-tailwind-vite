@@ -54,3 +54,27 @@
 .partner__img {
   @apply w-[120px];
 }
+
+/* ===== FEATURES SECTION ===== */
+.features__content {
+  @apply grid gap-12;
+}
+.features__content-data,
+.features__content-img {
+  @apply justify-self-center;
+}
+.features__content-title {
+  @apply section-title;
+}
+.features__content-text {
+  @apply section-text;
+}
+.features__content-list {
+  @apply grid gap-4 mb-8;
+}
+.features__content-item {
+  @apply inline-flex items-center gap-2 text-[15px] text-grey;
+}
+.features__content-icon {
+  @apply w-4 h-4 inline-flex justify-center items-center p-1 bg-purple rounded-full text-[15px] text-white;
+}

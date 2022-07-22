@@ -29,3 +29,20 @@
     @apply max-w-[1120px] w-[calc(100%-3rem)] mx-6 xl:mx-auto;
   }
 }
+
+/* ===== HEADER SECTION ===== */
+@media screen and (max-width: 767px) {
+  .header__menu {
+    @apply fixed w-[80%] top-28 left-0 right-0 mx-auto text-center p-8 bg-white shadow-[0_0_12px_rgba(0,0,0,0.1)] opacity-0 scale-y-0 origin-[0%_0%] transition-all duration-400;
+  }
+}
+.header__list {
+  @apply flex flex-col gap-6;
+}
+.header__link {
+  @apply text-[15px] text-grey hover:text-purple hover:font-medium;
+}
+/* show menu */
+.header__menu.show-menu {
+  @apply opacity-100 scale-y-100;
+}

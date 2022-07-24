@@ -193,3 +193,54 @@
     @apply w-[400px];
   }
 }
+
+/* width 640px */
+@screen sm {
+  .section-title {
+    @apply text-[32px];
+  }
+
+  .home__data,
+  .home__img {
+    @apply w-[500px];
+  }
+  .home__form {
+    @apply w-[450px] flex-row mx-auto;
+  }
+  .home__form-input {
+    @apply text-left;
+  }
+
+  .partner__data,
+  .features__content-data,
+  .features__content-img,
+  .steps__data,
+  .testimonial__data,
+  .about__title,
+  .about__data {
+    @apply w-[500px];
+  }
+
+  .features__content-button {
+    @apply inline-flex;
+  }
+}
+
+/* width 767px */
+@screen md {
+  .header__container {
+    @apply relative;
+  }
+  .header__menu {
+    @apply flex items-center;
+  }
+  .header__list {
+    @apply absolute left-[50%] translate-x-[-50%] flex-row;
+  }
+  .header__button {
+    @apply mt-0;
+  }
+  .header__toggle {
+    @apply hidden;
+  }
+}

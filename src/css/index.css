@@ -243,4 +243,8 @@
   .header__toggle {
     @apply hidden;
   }
+
+  .partner__group {
+    @apply grid-cols-[repeat(3,max-content)] justify-center gap-x-12;
+  }
 }

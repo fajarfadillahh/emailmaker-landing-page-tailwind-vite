@@ -307,3 +307,40 @@
     @apply text-[24px];
   }
 }
+
+/* width 1120 */
+@screen xl {
+  .header__list {
+    @apply gap-8;
+  }
+
+  .home__data {
+    @apply w-[600px];
+  }
+  .home__title {
+    @apply text-[48px];
+  }
+  .home__img {
+    @apply w-[900px];
+  }
+
+  .partner__img {
+    @apply w-[150px];
+  }
+
+  .features__content-title,
+  .features__content-text {
+    @apply w-[450px];
+  }
+
+  .about__title {
+    @apply text-[28px];
+  }
+
+  .footer__group {
+    @apply grid-cols-[1fr_.5fr_.5fr_1fr];
+  }
+  .footer__content {
+    @apply justify-self-center;
+  }
+}
